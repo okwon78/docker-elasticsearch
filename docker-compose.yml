@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  elasticsearch:
+    container_name: elasticsearch
+    build: ./elasticsearch
+    ports:
+      - 9200:9200
+    volumes:
+      - ./elastic-book-snapshot/book_backup/:/usr/share/elasticsearch/book_backup/
+  kibana:
+    container_name: kibana
+    image: kibana:6.4.3
+    ports:
+      - 5601:5601

@@ -1,0 +1,1 @@
+git clone https://github.com/javacafe-project/elastic-book-snapshot.git
