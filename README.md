@@ -7,7 +7,7 @@
 docker-compose up
 ```
 
-## Conainer 삭제
+## Container 삭제
 ```bash
 stop_prune_all_container.sh
 ```
