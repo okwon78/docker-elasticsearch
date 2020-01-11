@@ -1,8 +1,6 @@
 # docker-elasticsearch
 
 ### 실행
-
-실행
 ```bash
 docker-compose up
 ```
